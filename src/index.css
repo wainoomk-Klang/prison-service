@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ป้องกันการเลื่อนหน้าจอดุ๊กดิ๊กในมือถือ */
+body {
+  overscroll-behavior: none; 
+}
